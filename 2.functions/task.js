@@ -55,10 +55,6 @@ function worker2(arr) {
      min = arr[i];
    }
   }
-  if (min < 0 && max > 0){
-    result = max + Math.abs(min);
-  } else{
     result = max - min;
-  }
   return result;
 }
